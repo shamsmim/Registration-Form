@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+
+    <form>
+        <div>
+            <label for="Full Name">Fullname:</label> 
+            <input type="text" name="fullname" id="fullname" placeholder="enter your Name"required > 
+        </div><br>
+        <div>    
+            <label for="email">Email:</label> 
+            <input type="email" name="email" id="email" placeholder="enter your email" >
+        </div><br>
+        <div>    
+            <label for="Password">Password:</label> 
+            <input type="password" name="password"  id="password" placeholder="enter your email" >
+        </div><br>
+        <div>    
+            <label for="dob">Date of Birth:</label> 
+            <input type="date" name="dob" id="dob" >
+        </div><br>
+        <div>    
+            <label for="photo">Choose your photo:</label> 
+            <input type="file" name="photo" id="photo" >
+        </div><br>
+        <div>    
+            <label for="gender">Gender:</label> 
+            <input type="radio" name="gender" id="gender" value="Male">Male
+            <input type="radio" name="gender" id="gender" value="Female">Female
+        </div><br>
+        <div>    
+            <label for="religion">Religion:</label> 
+            <input type="checkbox" name="Muslim" id="Muslim" value="Islam">Islam
+            <input type="checkbox" name="Hindu" id="Hindu" value="Hindu">Hindu
+        </div><br>
+        <div>
+            <label for="Department">Department</label>
+            <select name="Department">
+                <option value="cse">CSE</option>
+                <option value="eee">EEE</option>
+                <option value="SWT" selected>SWT</option>
+                <option value="llb">LLB</option>
+                <option value="cvl">CVL</option>
+            </select>
+        </div><br>
+
+        <div>
+            <label for="Message">Please! Give your feedback</label><br>
+            <textarea cols="25" rows="5"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </div>
+          
+    </form>
+</body>
+</html>
